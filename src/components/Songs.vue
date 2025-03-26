@@ -160,9 +160,6 @@ export default defineComponent({
       currentSong.value = SongArray[index];
       currentIndex.value = index;
 
-      this.playAudio();
-    };
-
     const songList: Song[] = [
       {
         title: "505",
